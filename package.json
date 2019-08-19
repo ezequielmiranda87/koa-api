@@ -1,0 +1,30 @@
+{
+  "name": "koa-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "apidoc": "^0.17.7",
+    "eslint": "^6.1.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "generate-doc": "apidoc -i ./src/ -o docs/ -f .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielmiranda87/koa-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezequielmiranda87/koa-api/issues"
+  },
+  "homepage": "https://github.com/ezequielmiranda87/koa-api#readme"
+}
